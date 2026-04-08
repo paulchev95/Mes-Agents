@@ -105,3 +105,121 @@ Exercice : [Donne une instruction claire pour une tâche pratique que l'apprenan
 
 
 * Prochain module : [Teaser pour le prochain sujet de formation]
+
+Exemples d'Usage
+Voici comment utiliser concrètement le prompt principal. Chaque exemple montre le sujet inséré et un extrait de la sortie générée par l'IA.
+
+Exemple 1 : Créer un module sur "Les Fondamentaux du Prompt Engineering"
+Prompt Utilisateur
+Le seul changement est dans la section Tâche (Objectif) :
+
+Génère le contenu complet, diapositive par diapositive, pour un module de formation sur le thème suivant : "Les Fondamentaux du Prompt Engineering pour les Agents IA".
+
+## Exemples d'Usage
+
+Voici comment utiliser concrètement le prompt principal. Chaque exemple montre le sujet inséré et un extrait de la sortie générée par l'IA.
+
+---
+
+### **Exemple 1 : Créer un module sur "Les Fondamentaux du Prompt Engineering"**
+
+#### **Prompt Utilisateur**
+
+Le seul changement est dans la section `Tâche (Objectif)` :
+
+> Génère le contenu complet, diapositive par diapositive, pour un module de formation sur le thème suivant : "Les Fondamentaux du Prompt Engineering pour les Agents IA".
+
+#### **Résultat de l'IA (Extrait)**
+
+```markdown
+### SLIDE 1 : TITRE
+
+# Les Fondamentaux du Prompt Engineering pour les Agents IA
+
+## Formation Agent Makers - Aujourd'hui
+
+---
+
+### SLIDE 2 : AGENDA
+
+# Agenda du jour
+
+*   Leçon 1 : Qu'est-ce qu'un prompt ?
+*   Leçon 2 : Les composantes d'un prompt efficace
+*   Leçon 3 : Techniques de base (Zero-Shot, Few-Shot)
+*   Conclusion et prochaines étapes
+
+---
+
+### SLIDE 3 : LEÇON 1 - TITRE
+
+# Leçon 1 : Qu'est-ce qu'un prompt ?
+
+---
+
+### SLIDE 4 : LEÇON 1 - OBJECTIF
+
+## Objectif de cette leçon
+
+À la fin de cette partie, vous serez capable de :
+
+*   Définir précisément ce qu'est un prompt et son rôle.
+*   Comprendre pourquoi la qualité du prompt est cruciale pour la performance de l'agent.
+
+---
+
+### SLIDE 5 : LEÇON 1 - THÉORIE
+
+## Le dialogue avec l'IA
+
+Un prompt est une instruction claire que vous donnez à une intelligence artificielle pour guider sa réponse. Il peut s'agir d'une question, d'une commande ou d'un contexte à analyser. La qualité du prompt détermine directement la pertinence et la précision de la sortie de l'agent. C'est le point de départ de toute interaction réussie.
+
+### **Exemple 2 : Créer un module sur "Connecter son Agent à des Outils (APIs)"
+
+### **Prompt Utilisateur
+
+Le seul changement est dans la section Tâche (Objectif) :
+
+> Génère le contenu complet, diapositive par diapositive, pour un module de formation sur le thème suivant : "Connecter son Agent à des Outils (APIs) : Les Bonnes Pratiques".
+
+### SLIDE 1 : TITRE
+
+# Connecter son Agent à des Outils (APIs) : Les Bonnes Pratiques
+
+## Formation Agent Makers - Aujourd'hui
+
+---
+
+### SLIDE 2 : AGENDA
+
+# Agenda du jour
+
+*   Leçon 1 : Le rôle des outils pour un agent
+*   Leçon 2 : Définir un outil dans la plateforme (schéma OpenAPI)
+*   Leçon 3 : Comment l'agent décide d'utiliser un outil
+*   Conclusion et prochaines étapes
+
+---
+
+### SLIDE 3 : LEÇON 1 - TITRE
+
+# Leçon 1 : Le rôle des outils pour un agent
+
+---
+
+### SLIDE 4 : LEÇON 1 - OBJECTIF
+
+## Objectif de cette leçon
+
+À la fin de cette partie, vous serez capable de :
+
+*   Expliquer comment les outils étendent les capacités d'un agent.
+*   Identifier des cas d'usage où l'utilisation d'un outil est indispensable.
+
+---
+
+### SLIDE 5 : LEÇON 1 - THÉORIE
+
+## Donner des super-pouvoirs à votre agent
+
+Par défaut, un agent est limité aux informations de son modèle. Les outils (ou APIs) lui permettent d'interagir avec des systèmes externes : bases de données, services web, etc. Ils transforment un agent conversationnel en un agent capable d'agir dans le monde réel, pour récupérer une information à jour ou exécuter une tâche.
