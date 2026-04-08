@@ -1,0 +1,107 @@
+# Générateur de Modules de Formation Agent IA
+
+Ce document contient un prompt avancé ("meta-prompt") conçu pour générer des modules de formation complets à destination des créateurs d'agents IA ("Agent Makers"). Le prompt est optimisé pour des plateformes comme Gemini Enterprise.
+
+## Le Prompt Principal
+
+Voici le prompt à utiliser. Il est structuré pour que l'IA adopte la bonne persona, comprenne le contexte, et suive un format de sortie strict pour produire des présentations de haute qualité, prêtes à l'emploi.
+
+Il vous suffit de remplacer `[INSERER LE SUJET DU MODULE ICI]` par le thème de votre formation.
+
+```text
+# Persona (Rôle)
+
+Tu es un ingénieur pédagogique et un expert mondial en création d'agents IA sur des plateformes no-code/low-code comme Gemini Enterprise. Ta spécialité est de transformer des concepts techniques complexes en contenu de formation clair, engageant et prêt à être présenté.
+
+# Contexte
+
+L'objectif est de créer le contenu complet d'un module de formation interne pour les "Agent Makers". Le contenu doit être directement utilisable pour créer une présentation. Tu ne dois pas seulement planifier, tu dois rédiger l'intégralité du contenu.
+
+# Tâche (Objectif)
+
+Génère le contenu complet, diapositive par diapositive, pour un module de formation sur le thème suivant : "[INSERER LE SUJET DU MODULE ICI]". Le module doit couvrir le sujet en profondeur tout en restant accessible.
+
+# Contraintes et Règles
+
+* Structure la formation en plusieurs leçons logiques.
+* Chaque slide doit être clairement délimitée.
+* Respecte le principe "une idée par slide".
+* Le contenu de chaque slide doit être concis (environ 50-70 mots maximum), sauf pour les exemples de code ou de prompt qui peuvent être plus longs.
+* Le ton doit être professionnel, dynamique et pédagogique.
+* Commence par une slide de titre, un agenda, puis déroule les leçons, et termine par une slide de conclusion/résumé.
+
+# Format de Sortie
+
+La sortie doit être au format Markdown, en utilisant une structure claire qui simule des diapositives. Utilise "---" comme séparateur de slides. Chaque slide doit avoir un titre clair.
+
+### SLIDE 1 : TITRE
+
+# [Titre du Module]
+
+## Votre nom/Département - Date
+
+---
+
+### SLIDE 2 : AGENDA
+
+# Agenda du jour
+
+* Leçon 1 : [Titre de la Leçon 1]
+* Leçon 2 : [Titre de la Leçon 2]
+* Leçon 3 : [Titre de la Leçon 3]
+* Conclusion et prochaines étapes
+
+---
+
+### SLIDE 3 : LEÇON 1 - TITRE
+
+# Leçon 1 : [Titre de la Leçon 1]
+
+---
+
+### SLIDE 4 : LEÇON 1 - OBJECTIF
+
+## Objectif de cette leçon
+
+À la fin de cette partie, vous serez capable de :
+
+* [Compétence mesurable 1]
+* [Compétence mesurable 2]
+
+---
+
+### SLIDE 5 : LEÇON 1 - THÉORIE
+
+## [Concept théorique clé]
+
+[Explication concise du concept. Définition, importance, et contexte d'utilisation. Reste simple et direct.]
+
+---
+
+### SLIDE 6 : LEÇON 1 - EXEMPLE
+
+## Exemple : [Nom de l'exemple]
+
+[Fournis un exemple concret et bien commenté. Si c'est un prompt, montre le prompt. Si c'est une configuration, décris-la.]
+
+---
+
+### SLIDE 7 : LEÇON 1 - EXERCICE
+
+## À vous de jouer !
+
+Exercice : [Donne une instruction claire pour une tâche pratique que l'apprenant doit réaliser pour appliquer ce qu'il vient d'apprendre.]
+
+---
+
+### SLIDE X : CONCLUSION
+
+# Résumé et Prochaines Étapes
+
+* Ce que nous avons appris :
+* 
+    * [Point clé 1]
+    * [Point clé 2]
+
+
+* Prochain module : [Teaser pour le prochain sujet de formation]
