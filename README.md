@@ -1,31 +1,19 @@
 # 🤖 Mes Agents IA
 
-Bienvenue dans cette collection complète d'agents IA spécialisés, conçus pour automatiser et optimiser diverses tâches professionnelles et administratives.
+Bienvenue dans cette collection d'agents IA spécialisés, conçus pour automatiser et optimiser diverses tâches professionnelles.
 
 ## 📋 Description
 
-Ce repository contient une bibliothèque d'agents IA préconfigurés et optimisés pour différents domaines d'activité. Chaque agent est doté de directives spécifiques et d'instructions détaillées pour accomplir efficacement sa mission.
+Ce repository contient une bibliothèque d'agents IA préconfigurés et optimisés. Chaque agent est doté de directives spécifiques et d'instructions détaillées pour accomplir efficacement sa mission.
 
 ## 🎯 Agents Disponibles
 
-### Gestion d'Entreprise & Opérations
-- **Agent Principale ** - Agent coordinateur principal
-- **Agent ADV** - Gestion de l'Administration des Ventes
-- **Agent RH ** - Gestion des Ressources Humaines
-- **Agent QHSE ** - Qualité, Hygiène, Sécurité et Environnement
-- **Agent Directive Comptable ** - Gestion comptable et financière
-
 ### Communication & Présentation
-- **Agent Création de Présentations** - Création automatisée de présentations professionnelles
 - **Agent Création de Slides** - Génération de slides de qualité
-- **Agent Assistant de Compte Rendu de Réunion** - Synthèse et documentation des réunions
+- **Assistant de Compte Rendu de Réunion** - Synthèse et documentation des réunions
 
-### Fonctions Spécialisées
+### Gestion de Produit
 - **Agent Product Owner** - Gestion de produit et priorisation
-- **Agent "entreprise" PO** - Product Owner spécialisé
-- **Agent Support Informatique** - Support technique et IT
-- **Agent pour Appels d'Offres** - Réponse à appels d'offres
-- **Agent de Recherche Documentaire ** - Recherche et récupération documentaire
 
 ### Développement & Formation
 - **Agent Méta-prompting** - Optimisation des prompts IA
@@ -46,12 +34,12 @@ Chaque fichier agent contient :
 
 ## 💡 Cas d'Usage
 
-- 📊 Automatisation de tâches administratives
 - 📝 Génération de documents et contenus
 - 🎤 Création de présentations professionnelles
-- 💼 Support RH, comptable et opérationnel
-- 🔍 Recherche et analyse documentaire
+- 💼 Gestion de produit et priorisation
 - 🎓 Formation et onboarding
+- 🔧 Optimisation des prompts IA
+- 📋 Compte rendu de réunions
 
 ## 🔄 Intégration
 
@@ -59,25 +47,14 @@ Ces agents peuvent être intégrés dans :
 - Des applications personnalisées via API
 - Des workflows automation (Zapier, Make, etc.)
 - Des plateformes IA (OpenAI, Claude, Mistral, etc.)
-- Des systèmes d'entreprise existants (ERP, CRM, etc.)
 
 ## 📂 Organisation du Repository
 
 ```
 Mes-Agents/
-├── Agent Principale "entreprise"
-├── Agent ADV
-├── Agent RH
-├── Agent QHSE
-├── Agent Directive comptable
-├── Agent Création de Présentations
 ├── Agent création de slides
 ├── Assistant de Compte Rendu de Réunion
 ├── Agent Product Owner
-├── Agent "entreprise" PO
-├── Agent Support Informatique
-├── Agent pour Appels d'Offres
-├── Agent de Recherche Documentaire
 ├── Agent méta-prompting
 ├── Agent formation IA
 ├── Agent traitement de texte
@@ -98,19 +75,6 @@ Mes-Agents/
 - ✅ Testez les agents avec des données de test avant production
 - ✅ Documentez vos adaptations personnalisées
 - ✅ Maintenez les agents à jour régulièrement
-- ✅ Suivez les performances et les résultats
-
-## 📊 Domaines Couverts
-
-| Domaine | Agents Associés |
-|---------|----------------|
-| **RH & Recrutement** | Agent RH, Agent Formation IA |
-| **Finance & Comptabilité** | Agent Directive Comptable, Agent ADV |
-| **Qualité & Conformité** | Agent QHSE, Agent de Recherche Documentaire |
-| **Communication** | Agent Création de Présentations, Agent Création de Slides |
-| **Support & IT** | Agent Support Informatique |
-| **Commercial** | Agent Product Owner, Agent pour Appels d'Offres |
-| **Développement** | Agent Méta-prompting, Agent Traitement de Texte |
 
 ## 🔧 Maintenance
 
@@ -118,7 +82,6 @@ Les agents sont régulièrement mis à jour pour :
 - Améliorer la précision des réponses
 - Intégrer de nouvelles fonctionnalités
 - Adapter les directives aux meilleures pratiques actuelles
-- Corriger les bugs et optimiser les performances
 
 ## 📞 Support & Contribution
 
@@ -137,6 +100,6 @@ Ces agents IA sont créés et maintenus à titre professionnel.
 
 ---
 
-**Dernière mise à jour** : 8 avril 2026
+**Dernière mise à jour** : 10 avril 2026
 
 *Une collection d'agents IA pour automatiser et optimiser vos processus professionnels*
